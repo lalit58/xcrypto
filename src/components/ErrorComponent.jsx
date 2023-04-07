@@ -10,6 +10,7 @@ const ErrorComponent = ({ message }) => {
       left={"50%"}
       transform={"translateX(-50%)"}
       w={"container.lg"}
+      alignItems={["center", "flex-start"]}
     >
       <AlertIcon />
       {message}
